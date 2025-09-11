@@ -7,7 +7,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-r from-blue-500 to-green-500"></div>
-              <span className="text-2xl font-bold text-slate-900">swol</span>
+              <span className="text-2xl font-bold text-slate-900 fruktur-regular">swol</span>
             </div>
            
             <div className="flex items-center space-x-4">
@@ -26,7 +26,7 @@ export default function HomePage() {
       <main className="container mx-auto px-4 py-12">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">
-            <h1 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl">
+            <h1 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl fruktur-regular">
               Track Your Fitness
             </h1>
             <p className="text-lg text-slate-600">
@@ -81,7 +81,7 @@ export default function HomePage() {
 
           {/* Recent Activity */}
           <div className="rounded-lg bg-white p-6 shadow-sm border border-slate-200">
-            <h2 className="mb-4 text-xl font-semibold text-slate-900">Recent Activity</h2>
+            <h2 className="mb-4 text-xl font-semibold text-slate-900 fruktur-regular">Recent Activity</h2>
             <div className="space-y-3">
               <div className="flex items-center justify-between py-2">
                 <div className="flex items-center space-x-3">
@@ -115,7 +115,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="h-6 w-6 rounded bg-gradient-to-r from-blue-500 to-green-500"></div>
-              <span className="text-lg font-semibold text-slate-900">swol</span>
+              <span className="text-lg font-semibold text-slate-900 fruktur-regular">swol</span>
             </div>
             <p className="text-sm text-slate-500">
               &copy; 2024 Swol. All rights reserved.

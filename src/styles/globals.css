@@ -3,4 +3,17 @@
 @theme {
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-fruktur: var(--font-fruktur), system-ui, sans-serif;
+}
+
+.fruktur-regular {
+  font-family: var(--font-fruktur);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular-italic {
+  font-family: var(--font-fruktur);
+  font-weight: 400;
+  font-style: italic;
 }
