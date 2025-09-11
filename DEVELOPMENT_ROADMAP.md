@@ -1,12 +1,12 @@
 # Development Roadmap
 
-## Phase 1: Foundation & Core Infrastructure (Weeks 1-2)
+## Phase 1: Foundation & Core Infrastructure 
 
-### Week 1: Project Setup & Database
+### Project Setup & Database
 **Milestone**: Basic project structure and database schema
 
 #### Tasks:
-- [ ] Set up Next.js project with TypeScript
+- [x] Set up Next.js project with TypeScript
 - [ ] Configure Drizzle ORM with PostgreSQL/Neon
 - [ ] Create database schema for all tables
 - [ ] Set up database migrations
@@ -18,7 +18,7 @@
 - Database migrations
 - Basic project structure
 
-### Week 2: Authentication & User Management
+### Authentication & User Management
 **Milestone**: User authentication and profile management
 
 #### Tasks:
@@ -34,10 +34,9 @@
 - User profile management
 - Protected app routes
 
-## Phase 2: Weight Tracking (Weeks 3-4)
+## Phase 2: Weight Tracking 
 
-### Week 3: Weight Logging & Storage
-**Milestone**: Basic weight tracking functionality
+### Weight Logging & Storage
 
 #### Tasks:
 - [ ] Create weight logging API endpoints
@@ -52,7 +51,6 @@
 - Weight history management
 - Basic weight data validation
 
-### Week 4: Weight Visualization & Analytics
 **Milestone**: Weight progress visualization
 
 #### Tasks:
@@ -68,9 +66,7 @@
 - Trend analysis
 - Weight analytics dashboard
 
-## Phase 3: Exercise Tracking (Weeks 5-7)
-
-### Week 5: Exercise Library & Database
+## Phase 3: Exercise Tracking 
 **Milestone**: Exercise database and management
 
 #### Tasks:
