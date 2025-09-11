@@ -8,7 +8,7 @@ import { index, pgTableCreator, check } from "drizzle-orm/pg-core";
  * Multi-project schema feature of Drizzle ORM
  * @see https://orm.drizzle.team/docs/goodies#multi-project-schema
  */
-export const createTable = pgTableCreator((name) => `swol_${name}`);
+export const createTable = pgTableCreator(name => name);
 
 // Better Auth Tables (will be used by Better Auth)
 export const users = createTable(
@@ -90,7 +90,7 @@ export const userProfiles = createTable(
   }),
   (t) => [
     index("user_profile_userId_idx").on(t.userId),
-    check("activity_level_check", sql`activity_level IN ('sedentary', 'lightly_active', 'moderately_active', 'very_active', 'extremely_active')`),
+    check("activity_level_check", sql`"activityLevel" IN ('sedentary', 'lightly_active', 'moderately_active', 'very_active', 'extremely_active')`),
   ],
 );
 

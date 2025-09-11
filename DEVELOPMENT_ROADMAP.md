@@ -7,10 +7,10 @@
 
 #### Tasks:
 - [x] Set up Next.js project with TypeScript
-- [ ] Configure Drizzle ORM with PostgreSQL/Neon
-- [ ] Create database schema for all tables
-- [ ] Set up database migrations
-- [ ] Configure environment variables
+- [x] Configure Drizzle ORM with PostgreSQL/Neon
+- [x] Create database schema for all tables
+- [x] Set up database migrations
+- [x] Configure environment variables
 - [ ] Set up ESLint and Prettier
 
 #### Deliverables:
